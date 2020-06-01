@@ -5,11 +5,11 @@ We apply Cramer GAN to SRGAN, which is a GAN based super resolution algorithm.
 
 ### SRGAN Architecture
 
-TensorFlow Implementation of "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" [[1]] (https://arxiv.org/abs/1609.04802)
+TensorFlow Implementation of "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" [[1] (https://arxiv.org/abs/1609.04802)]
 
 ### Cramer GAN
 
-The Cramer GAN [[2]] (https://arxiv.org/abs/1705.10743) was designed to minimize the Cramer distance (distance between the real and generated samples). It has the same properties as Wasserstein GAN [[3]] (https://arxiv.org/abs/1701.07875), but also has the unbiased sample gradients. Hence, it provides a more stable learning, and avoids the loss that converge to a wrong minimum. Fig. 1 (extract from [2]) shows the general idea of algorithm.
+The Cramer GAN [[2] (https://arxiv.org/abs/1705.10743)] was designed to minimize the Cramer distance (distance between the real and generated samples). It has the same properties as Wasserstein GAN [[3] (https://arxiv.org/abs/1701.07875)], but also has the unbiased sample gradients. Hence, it provides a more stable learning, and avoids the loss that converge to a wrong minimum. Fig. 1 (extract from [2]) shows the general idea of algorithm.
 
 ![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/cramer.png)
 
