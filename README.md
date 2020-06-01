@@ -5,7 +5,7 @@ We apply Cramer GAN to SRGAN, which is a GAN based super resolution algorithm.
 
 ### SRGAN Architecture
 
-TensorFlow Implementation of "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" \[[1] (https://arxiv.org/abs/1609.04802)\]
+TensorFlow Implementation of "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" \[ [1] (https://arxiv.org/abs/1609.04802) \]
 
 ### Cramer GAN
 
