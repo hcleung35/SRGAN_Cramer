@@ -26,7 +26,7 @@ The Cramer GAN [2] was designed to minimize the Cramer distance (distance betwee
 
 ### Result
 
-The upper batch is the low resolution images. The lower batch is the super resolution images.
+The upper batch are the low resolution images. The lower batch are the super resolution images.
 
 ![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/imgs/result1.png)
 
