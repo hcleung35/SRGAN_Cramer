@@ -11,7 +11,7 @@ TensorFlow Implementation of "Photo-Realistic Single Image Super-Resolution Usin
 
 The Cramer GAN [2] was designed to minimize the Cramer distance (distance between the real and generated samples). It has the same properties as Wasserstein GAN [3], but also has the unbiased sample gradients. Hence, it provides a more stable learning, and avoids the loss that converge to a wrong minimum. Fig. 1 (extract from [2]) shows the general idea of algorithm.
 
-![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/cramer.png)
+![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/imgs/cramer.png)
 
 ### Our Contribution
 
@@ -26,8 +26,14 @@ The Cramer GAN [2] was designed to minimize the Cramer distance (distance betwee
 
 ### Result
 
+The upper batch is the low resolution images. The lower batch is the super resolution images.
 
-  
+![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/imgs/result1.png)
+
+![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/imgs/result2.png)
+
+![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/imgs/result3.png)
+
 ### Run
 
 The environment is [TensorFlow](https://www.tensorflow.org) 2.1.0 and the [TensorLayer](https://github.com/tensorlayer/tensorlayer) 2.0.0+.
