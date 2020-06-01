@@ -1,7 +1,7 @@
 ## SRGAN_Cramer
 We apply Cramer GAN to SRGAN, which is a GAN based super resolution algorithm.
 
-***This repo was forked from @zsdonghao 's [tensorlayer/srgan](https://github.com/tensorlayer/srgan) repo. We implement the Cramer GAN for SRGAN based on this repo. We changed some loss functions in the original code so as to determine the Cramer distance. Many thanks to @zsdonghao again, for his great effoct on the reimplementation.***
+***This repo was forked from @zsdonghao 's [tensorlayer/srgan](https://github.com/tensorlayer/srgan) repo. We implement the Cramer GAN for SRGAN based on this repo. We changed some loss functions in the original code so as to determine the Cramer distance. Many thanks to @zsdonghao again, for his great effort on the reimplementation.***
 
 ### SRGAN Architecture
 
