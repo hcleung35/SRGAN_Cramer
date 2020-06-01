@@ -53,7 +53,7 @@ python myeval.py --mode myevaluate #(image no.)
 * [3] [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
 
 ### Author
-- [H.C.Leung](https://github.com/zsdonghao)
+- [H.C.Leung](https://github.com/hcleung35)
 - [H.T.Wong]()
 
 ### License
