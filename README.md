@@ -5,24 +5,24 @@ We apply Cramer GAN to SRGAN, which is a GAN based super resolution algorithm.
 
 ### SRGAN Architecture
 
-TensorFlow Implementation of ["Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network"] [1](https://arxiv.org/abs/1609.04802)
+TensorFlow Implementation of ["Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network"] [1] (https://arxiv.org/abs/1609.04802)
 
 ### Cramer GAN
 
-The Cramer GAN [2](https://arxiv.org/abs/1705.10743) was designed to minimize the Cramer distance (distance between the real and generated samples). It has the same properties as Wasserstein GAN [3](https://arxiv.org/abs/1701.07875), but also has the unbiased sample gradients. Hence, it provides a more stable learning, and avoids the loss that converge to a wrong minimum. Fig. 1 (extract from [2]) shows the general idea of algorithm.
+The Cramer GAN [2] (https://arxiv.org/abs/1705.10743) was designed to minimize the Cramer distance (distance between the real and generated samples). It has the same properties as Wasserstein GAN [3] (https://arxiv.org/abs/1701.07875), but also has the unbiased sample gradients. Hence, it provides a more stable learning, and avoids the loss that converge to a wrong minimum. Fig. 1 (extract from [2]) shows the general idea of algorithm.
 
 ![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/cramer.png)
 
 ### Our Contribution
 
-- 1. Apply the Cramer framework to SRGAN
-- 2. Eliminate the pre-train process since the Cramer GAN converges to the right minimum.
-- 3. Change the output of discriminator(SRGAN_d) to energy loss vector instead of logit.
+- Apply the Cramer framework to SRGAN
+- Eliminate the pre-train process since the Cramer GAN converges to the right minimum.
+- Change the output of discriminator(SRGAN_d) to energy loss vector instead of logit.
 
 ### Training Dataset and Pre-trained VGG
 
-- 1. Please download a pretrained VGG19 model in [here](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs).
-- 2. Please download the DIV2K high resolution images dataset. in [here] (https://data.vision.ee.ethz.ch/cvl/ntire17//).
+- Please download a pretrained VGG19 model in [here](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs).
+- Please download the DIV2K high resolution images dataset. in [here] (https://data.vision.ee.ethz.ch/cvl/ntire17//).
 
 ### Result
 
