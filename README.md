@@ -22,7 +22,7 @@ The Cramer GAN [2] was designed to minimize the Cramer distance (distance betwee
 ### Training Dataset and Pre-trained VGG
 
 - Please download a pretrained VGG19 model in [here](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs).
-- Please download the DIV2K high resolution images dataset. in [here](https://data.vision.ee.ethz.ch/cvl/ntire17).
+- Please download the DIV2K high resolution images dataset in [here](https://data.vision.ee.ethz.ch/cvl/ntire17).
 
 ### Result
 
