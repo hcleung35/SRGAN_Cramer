@@ -1,4 +1,4 @@
-# SRGAN Cramer with video super-resolution
+## SRGAN Cramer with video super-resolution
 We apply Cramer GAN to SRGAN, which is a GAN based super-resolution algorithm.
 Based on our trained model, we provide an application that upscales a low-resolution video to a high-resolution one.
 
