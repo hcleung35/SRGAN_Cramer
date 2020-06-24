@@ -2,7 +2,7 @@
 We apply Cramer GAN to SRGAN, which is a GAN based super-resolution algorithm.
 Based on our trained model, we provide an application that upscales a low-resolution video to a high-resolution one.
 
-Please watch the video in 1080p and theater mode
+Please watch the video in 1080p and theater mode.
 [![](https://github.com/hcleung35/SRGAN_Cramer/blob/master/imgs/yt.png)](https://www.youtube.com/watch?v=SOtYEjqSciQ&t=19s)
 
 ### SRGAN Architecture
