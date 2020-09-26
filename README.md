@@ -19,9 +19,8 @@ The Cramer GAN [2] was designed to minimize the Cramer distance (distance betwee
 
 ### Our Contribution
 
-- Apply the Cramer framework to SRGAN
-- Eliminate the pre-train process since the Cramer GAN converges to the right minimum.
-- Change the output of discriminator(SRGAN_d) to energy loss vector instead of logit.
+- Apply Cramer distance as adversarial loss to SRGAN, the unbiased sample gradients lead to a improved local minimum. 
+- Eliminate the pre-train process as Cramer distance lead to stable training.
 - Apply our model to video super-resolution.
 
 ### Training Dataset and Pre-trained VGG
